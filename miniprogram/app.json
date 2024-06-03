@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "entryPagePath": "pages/index/index",
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Music list",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

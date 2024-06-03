@@ -1,0 +1,8 @@
+{
+  "description": "Project private profile. The content in this file overrides the same fields in project.config.json. Changes to the project are first synchronized to this file. See the documentation：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "miniprogram",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  }
+}

@@ -1,0 +1,19 @@
+<!-- 播放列表 -->
+<view class="container">
+
+<!-- 播放索引 -->
+<view wx:for="{{playlist}}" wx:key="playlist" style="margin-left: 5%; margin-top: 10%;">
+  <view>
+    <text class="left_font12" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 70%;">
+      ({{index+1}}).{{item.file_name}}
+    </text>
+    <view style="float:right; margin-right: 3%; margin-top: 8%;">
+      <button class="left_font12 bt_color" style="background-color: green; font-size: 15px;"
+        size="mini" bindtap="play" id="{{index}}" wx:if="{{item.play_status == 0}}">Play</button>
+      <button class="left_font12 bt_color" style="background-color: red; font-size: 15px;"
+      size="mini" bindtap="stop" id="{{index}}" wx:elif="{{item.play_status == 1}}">Stop</button>
+    </view>
+  </view>
+</view>
+
+</view>
